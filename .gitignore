@@ -5,6 +5,8 @@ Archive/
 
 # Env files
 server/.env
+server/src/.env.example
+server/src/.env
 .env
 
 # Optional: Logfiles
