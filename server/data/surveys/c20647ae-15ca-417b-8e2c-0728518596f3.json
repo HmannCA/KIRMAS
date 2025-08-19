@@ -1,0 +1,205 @@
+{
+  "id": "c20647ae-15ca-417b-8e2c-0728518596f3",
+  "title": "KIRMAS – Erhebungs-Editor",
+  "schema": {
+    "id": "survey_SO0ioD",
+    "title": "KIRMAS – Erhebungs-Editor",
+    "pages": [
+      {
+        "id": "page_-StUL0",
+        "title": "Seite 1",
+        "sections": [
+          {
+            "id": "section_ebohvV",
+            "title": "Allgemein",
+            "blocks": [
+              {
+                "id": "block_5YuP_h",
+                "title": "Einsatzort",
+                "fields": [
+                  {
+                    "id": "field_y4fYzi",
+                    "type": "checkbox",
+                    "label": "Einsatz aktiv?",
+                    "name": "einsatz_aktiv",
+                    "colSpan": 4
+                  },
+                  {
+                    "id": "field_YL_pKc",
+                    "type": "text",
+                    "label": "Einsatzbezeichnung",
+                    "name": "einsatz_name",
+                    "placeholder": "z. B. Hochwasser Übung 2025",
+                    "colSpan": 8
+                  },
+                  {
+                    "id": "field_o0CQKF",
+                    "type": "select",
+                    "label": "Kategorie",
+                    "name": "kategorie",
+                    "options": [
+                      "A",
+                      "B",
+                      "C"
+                    ],
+                    "colSpan": 4
+                  },
+                  {
+                    "id": "field_l1yXa3",
+                    "type": "geo",
+                    "label": "Geoposition",
+                    "name": "einsatz_geo",
+                    "colSpan": 8
+                  }
+                ]
+              },
+              {
+                "id": "block_wObX83",
+                "title": "Adresse",
+                "fields": [
+                  {
+                    "id": "field_TSXArb",
+                    "type": "text",
+                    "label": "PLZ",
+                    "name": "plz",
+                    "colSpan": 3
+                  },
+                  {
+                    "id": "field_fUs-uC",
+                    "type": "text",
+                    "label": "Ort",
+                    "name": "ort",
+                    "colSpan": 9
+                  },
+                  {
+                    "id": "field_-mXd8g",
+                    "type": "text",
+                    "label": "Straße",
+                    "name": "strasse",
+                    "colSpan": 8
+                  },
+                  {
+                    "id": "field_hawF-m",
+                    "type": "number",
+                    "label": "Haus-Nr.",
+                    "name": "hausnr",
+                    "colSpan": 4
+                  }
+                ]
+              },
+              {
+                "id": "block_r8rNGW",
+                "title": "Material (Tabelle)",
+                "fields": [
+                  {
+                    "id": "field_MBi5Zc",
+                    "type": "table",
+                    "label": "Material-Liste",
+                    "name": "material",
+                    "colSpan": 12,
+                    "columns": [
+                      {
+                        "id": "c0",
+                        "key": "bezeichnung",
+                        "label": "Bezeichnung",
+                        "type": "text",
+                        "required": true
+                      },
+                      {
+                        "id": "c1",
+                        "key": "anzahl",
+                        "label": "Anzahl",
+                        "type": "number",
+                        "min": 0
+                      },
+                      {
+                        "id": "c2",
+                        "key": "zustand",
+                        "label": "Zustand",
+                        "type": "select",
+                        "options": [
+                          "ok",
+                          "mangelhaft",
+                          "defekt"
+                        ],
+                        "required": true
+                      },
+                      {
+                        "id": "c3",
+                        "key": "einsatzbereit",
+                        "label": "Einsatzbereit",
+                        "type": "checkbox"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "block_QLiTFM",
+                "title": "Kontakt",
+                "fields": [
+                  {
+                    "id": "field_KOFkvn",
+                    "type": "text",
+                    "label": "Anrede",
+                    "name": "anrede",
+                    "colSpan": 3
+                  },
+                  {
+                    "id": "field_tkNlS3",
+                    "type": "text",
+                    "label": "Titel",
+                    "name": "titel",
+                    "colSpan": 3
+                  },
+                  {
+                    "id": "field_r7A7cj",
+                    "type": "text",
+                    "label": "Vorname",
+                    "name": "vorname",
+                    "colSpan": 3
+                  },
+                  {
+                    "id": "field_kfh2ds",
+                    "type": "text",
+                    "label": "Nachname",
+                    "name": "nachname",
+                    "colSpan": 3
+                  },
+                  {
+                    "id": "field_rsVtSa",
+                    "type": "text",
+                    "label": "Vorwahl",
+                    "name": "vorwahl",
+                    "colSpan": 3
+                  },
+                  {
+                    "id": "field_348oo6",
+                    "type": "text",
+                    "label": "Telefon",
+                    "name": "telefon",
+                    "colSpan": 9
+                  },
+                  {
+                    "id": "field_7iMN2q",
+                    "type": "email",
+                    "label": "E-Mail",
+                    "name": "email",
+                    "colSpan": 12
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "page_OppxEW",
+        "title": "Seite 2",
+        "sections": []
+      }
+    ]
+  },
+  "createdAt": "2025-08-15T08:06:12.619Z",
+  "updatedAt": "2025-08-15T10:43:42.281Z"
+}

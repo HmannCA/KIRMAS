@@ -1,0 +1,432 @@
+{
+  "id": "6cb64439-c3f8-4af9-a147-40d3b78a17c3",
+  "title": "Stammdaten WV (Wasserversorger) 5",
+  "schema": {
+    "title": "Wasserversorger - Stammdaten",
+    "pages": [
+      {
+        "title": "Stammdaten WV (Wasserversorger) 5",
+        "sections": [
+          {
+            "title": "Grunddaten",
+            "blocks": [
+              {
+                "title": "Unternehmen",
+                "fields": [
+                  {
+                    "type": "text",
+                    "name": "wasserversorger_name",
+                    "label": "Name des Wasserversorgers",
+                    "required": true,
+                    "colSpan": 12,
+                    "multiple": false,
+                    "id": "fld_4jlhzazl"
+                  },
+                  {
+                    "type": "select",
+                    "name": "rechtsform",
+                    "label": "Rechtsform",
+                    "required": true,
+                    "options": [
+                      {
+                        "value": "aoer",
+                        "label": "Anstalt des öffentlichen Rechts (AöR)"
+                      },
+                      {
+                        "value": "gmbh",
+                        "label": "GmbH"
+                      },
+                      {
+                        "value": "ag",
+                        "label": "AG"
+                      },
+                      {
+                        "value": "gmbh_co_kg",
+                        "label": "GmbH & Co. KG"
+                      },
+                      {
+                        "value": "zweckverband",
+                        "label": "Zweckverband"
+                      },
+                      {
+                        "value": "eigenbetrieb",
+                        "label": "Eigenbetrieb"
+                      },
+                      {
+                        "value": "kommunalunternehmen_aoer",
+                        "label": "Kommunalunternehmen (AöR)"
+                      },
+                      {
+                        "value": "verein_ev",
+                        "label": "eingetragener Verein (e. V.)"
+                      },
+                      {
+                        "value": "sonstige",
+                        "label": "Sonstige"
+                      }
+                    ],
+                    "colSpan": 6,
+                    "multiple": false,
+                    "id": "fld_o7vyw2k6"
+                  },
+                  {
+                    "type": "text",
+                    "name": "rechtsform_andere",
+                    "label": "Rechtsform (Sonstige, bitte angeben)",
+                    "colSpan": 6,
+                    "required": false,
+                    "multiple": false,
+                    "id": "fld_yms8r7j1"
+                  },
+                  {
+                    "type": "email",
+                    "name": "zentrale_email",
+                    "label": "Zentrale E-Mail",
+                    "colSpan": 6,
+                    "required": false,
+                    "multiple": false,
+                    "id": "fld_bntl9t0s"
+                  },
+                  {
+                    "type": "tel",
+                    "name": "zentrale_telefon",
+                    "label": "Zentrale Telefon",
+                    "colSpan": 6,
+                    "required": false,
+                    "multiple": false,
+                    "id": "fld_lnyp570z"
+                  },
+                  {
+                    "type": "text",
+                    "name": "website",
+                    "label": "Website",
+                    "colSpan": 12,
+                    "required": false,
+                    "multiple": false,
+                    "id": "fld_vh56ytjj"
+                  }
+                ],
+                "id": "blk_45k0ewm3"
+              }
+            ],
+            "id": "sec_krj7qg23"
+          },
+          {
+            "title": "Adresse",
+            "blocks": [
+              {
+                "title": "Geschäftsanschrift",
+                "fields": [
+                  {
+                    "type": "text",
+                    "name": "strasse",
+                    "label": "Straße",
+                    "required": true,
+                    "colSpan": 6,
+                    "multiple": false,
+                    "id": "fld_z9j8l91m"
+                  },
+                  {
+                    "type": "text",
+                    "name": "hausnummer",
+                    "label": "Hausnummer",
+                    "required": true,
+                    "colSpan": 3,
+                    "multiple": false,
+                    "id": "fld_ewn2mvat"
+                  },
+                  {
+                    "type": "text",
+                    "name": "adresszusatz",
+                    "label": "Adresszusatz",
+                    "colSpan": 3,
+                    "required": false,
+                    "multiple": false,
+                    "id": "fld_8vm9bud6"
+                  },
+                  {
+                    "type": "text",
+                    "name": "plz",
+                    "label": "PLZ",
+                    "required": true,
+                    "colSpan": 4,
+                    "multiple": false,
+                    "id": "fld_s2yjcotb"
+                  },
+                  {
+                    "type": "text",
+                    "name": "ort",
+                    "label": "Ort",
+                    "required": true,
+                    "colSpan": 8,
+                    "multiple": false,
+                    "id": "fld_cy48nzbm"
+                  },
+                  {
+                    "type": "select",
+                    "name": "bundesland",
+                    "label": "Bundesland",
+                    "required": false,
+                    "options": [
+                      {
+                        "value": "baden_wuerttemberg",
+                        "label": "Baden-Württemberg"
+                      },
+                      {
+                        "value": "bayern",
+                        "label": "Bayern"
+                      },
+                      {
+                        "value": "berlin",
+                        "label": "Berlin"
+                      },
+                      {
+                        "value": "brandenburg",
+                        "label": "Brandenburg"
+                      },
+                      {
+                        "value": "bremen",
+                        "label": "Bremen"
+                      },
+                      {
+                        "value": "hamburg",
+                        "label": "Hamburg"
+                      },
+                      {
+                        "value": "hessen",
+                        "label": "Hessen"
+                      },
+                      {
+                        "value": "mecklenburg_vorpommern",
+                        "label": "Mecklenburg-Vorpommern"
+                      },
+                      {
+                        "value": "niedersachsen",
+                        "label": "Niedersachsen"
+                      },
+                      {
+                        "value": "nordrhein_westfalen",
+                        "label": "Nordrhein-Westfalen"
+                      },
+                      {
+                        "value": "rheinland_pfalz",
+                        "label": "Rheinland-Pfalz"
+                      },
+                      {
+                        "value": "saarland",
+                        "label": "Saarland"
+                      },
+                      {
+                        "value": "sachsen",
+                        "label": "Sachsen"
+                      },
+                      {
+                        "value": "sachsen_anhalt",
+                        "label": "Sachsen-Anhalt"
+                      },
+                      {
+                        "value": "schleswig_holstein",
+                        "label": "Schleswig-Holstein"
+                      },
+                      {
+                        "value": "thueringen",
+                        "label": "Thüringen"
+                      }
+                    ],
+                    "colSpan": 6,
+                    "multiple": false,
+                    "id": "fld_84uusyln",
+                    "value": []
+                  },
+                  {
+                    "type": "select",
+                    "name": "land",
+                    "label": "Land",
+                    "options": [
+                      {
+                        "value": "de",
+                        "label": "Deutschland"
+                      }
+                    ],
+                    "colSpan": 6,
+                    "required": false,
+                    "multiple": false,
+                    "id": "fld_qjtrxg7c"
+                  },
+                  {
+                    "id": "field_P4kqex",
+                    "type": "geo",
+                    "label": "GEO",
+                    "name": "geo_8",
+                    "colSpan": 12,
+                    "value": {
+                      "lat": 54.08597896079518,
+                      "lng": 13.421173095703127
+                    },
+                    "required": false,
+                    "multiple": false
+                  }
+                ],
+                "id": "blk_gik1frji"
+              }
+            ],
+            "id": "sec_mosbyhcn"
+          },
+          {
+            "title": "Kontaktdaten",
+            "blocks": [
+              {
+                "title": "Allgemeine Kontaktangaben",
+                "fields": [
+                  {
+                    "type": "tel",
+                    "name": "telefon",
+                    "label": "Telefon",
+                    "colSpan": 4,
+                    "required": false,
+                    "multiple": false,
+                    "id": "fld_6218wko6"
+                  },
+                  {
+                    "type": "tel",
+                    "name": "mobil",
+                    "label": "Mobil",
+                    "colSpan": 4,
+                    "required": false,
+                    "multiple": false,
+                    "id": "fld_leshkttt"
+                  },
+                  {
+                    "type": "email",
+                    "name": "email",
+                    "label": "E-Mail",
+                    "colSpan": 4,
+                    "required": false,
+                    "multiple": false,
+                    "id": "fld_tinaz8pj"
+                  },
+                  {
+                    "type": "text",
+                    "name": "servicezeiten",
+                    "label": "Servicezeiten (optional)",
+                    "colSpan": 12,
+                    "required": false,
+                    "multiple": false,
+                    "id": "fld_746e5p7g"
+                  }
+                ],
+                "id": "blk_7ym950cy"
+              }
+            ],
+            "id": "sec_nc1vtf51"
+          },
+          {
+            "title": "Hauptansprechpartner",
+            "blocks": [
+              {
+                "title": "Hauptansprechpartner",
+                "fields": [
+                  {
+                    "type": "select",
+                    "name": "anrede",
+                    "label": "Anrede",
+                    "options": [
+                      {
+                        "value": "frau",
+                        "label": "Frau"
+                      },
+                      {
+                        "value": "herr",
+                        "label": "Herr"
+                      },
+                      {
+                        "value": "divers",
+                        "label": "Divers"
+                      },
+                      {
+                        "value": "keine_angabe",
+                        "label": "Keine Angabe"
+                      }
+                    ],
+                    "colSpan": 4,
+                    "required": false,
+                    "multiple": false,
+                    "id": "fld_pi6zhs6e"
+                  },
+                  {
+                    "type": "text",
+                    "name": "titel",
+                    "label": "Titel",
+                    "colSpan": 4,
+                    "required": false,
+                    "multiple": false,
+                    "id": "fld_7zznnq39"
+                  },
+                  {
+                    "type": "text",
+                    "name": "funktion",
+                    "label": "Funktion/Position",
+                    "colSpan": 4,
+                    "required": false,
+                    "multiple": false,
+                    "id": "fld_28puw1fv"
+                  },
+                  {
+                    "type": "text",
+                    "name": "vorname",
+                    "label": "Vorname",
+                    "required": true,
+                    "colSpan": 6,
+                    "multiple": false,
+                    "id": "fld_6ftzapmi"
+                  },
+                  {
+                    "type": "text",
+                    "name": "nachname",
+                    "label": "Nachname",
+                    "required": true,
+                    "colSpan": 6,
+                    "multiple": false,
+                    "id": "fld_2a2n7hue"
+                  },
+                  {
+                    "type": "email",
+                    "name": "ansprechpartner_email",
+                    "label": "E-Mail",
+                    "required": true,
+                    "colSpan": 4,
+                    "multiple": false,
+                    "id": "fld_k3q7mten"
+                  },
+                  {
+                    "type": "tel",
+                    "name": "ansprechpartner_telefon",
+                    "label": "Telefon",
+                    "colSpan": 4,
+                    "required": false,
+                    "multiple": false,
+                    "id": "fld_xqcaq4vi"
+                  },
+                  {
+                    "type": "tel",
+                    "name": "ansprechpartner_mobil",
+                    "label": "Mobil",
+                    "colSpan": 4,
+                    "required": false,
+                    "multiple": false,
+                    "id": "fld_a8muvkiz"
+                  }
+                ],
+                "id": "blk_i8cmh6oe"
+              }
+            ],
+            "id": "sec_w1szncx7"
+          }
+        ],
+        "id": "pg_jku6yc9t"
+      }
+    ]
+  },
+  "createdAt": "2025-08-15T07:48:29.852Z",
+  "updatedAt": "2025-08-15T07:48:29.852Z"
+}

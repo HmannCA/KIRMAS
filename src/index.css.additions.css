@@ -1,0 +1,23 @@
+/* Leaflet stacking and spinner */
+.leaflet-container { z-index: 0; }
+.leaflet-pane, .leaflet-top, .leaflet-bottom { z-index: 400; }
+
+.wand-spinner {
+  width: 18px; height: 18px; border-radius: 50%;
+  border: 2px solid #f59e0b; border-top-color: transparent;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Multi-select pills */
+.pillbar { display:flex; flex-wrap:wrap; gap:6px; margin:4px 0 8px; }
+.pill {
+  display:inline-flex; align-items:center; gap:6px;
+  padding:2px 8px; border:1px solid #e5e7eb; border-radius:999px;
+  background:#f8fafc; font-size:12px; line-height:18px;
+}
+.pill-x {
+  border:0; background:transparent; cursor:pointer;
+  line-height:1; font-size:12px; opacity:.7
+}
+.pill-x:hover { opacity:1 }

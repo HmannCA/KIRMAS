@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+server/node_modules
+Archive/
+
+# Env files
+server/.env
+.env
+
+# Optional: Logfiles
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional: Betriebssystem-spezifisches Zeug
+.DS_Store
+Thumbs.db
